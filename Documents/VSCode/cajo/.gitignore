@@ -1,13 +1,31 @@
-venv
-staticfiles
-./db.sqlite3
-.idea
-*~
-*.sqlite3
-_static_root
-_bots*s
-__temp*
+# Python
 __pycache__/
-*.py[cod]
+*.pyc
+*.pyo
+*.pyd
+*.db
+*.sqlite3
+
+# Virtual environments
+.venv/
+venv/
+env/
+.conda/
+
+# VS Code
+.vscode/
+
+# System files
 .DS_Store
-*.otreezip
+Thumbs.db
+
+# Jupyter & Anaconda
+.ipynb_checkpoints/
+.conda/
+.continuum/
+*.bak
+*.log
+
+# Environment files
+*.env
+*.txt
